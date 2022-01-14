@@ -60,6 +60,8 @@
 								<td>{{ $row->edad }}</td>
 								<td>{{ $row->tipo_prueba }}</td>
 								<td>{{ $row->resultado }}</td>
+								<td>{{ $row->created_at->format('d-m-Y') }}</td>
+								
 								<td width="90">
 								<div class="btn-group">
 									<button type="button" class="btn btn-info btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

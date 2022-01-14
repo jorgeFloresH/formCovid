@@ -29,6 +29,7 @@ class Pacientes extends Component
 						->orWhere('edad', 'LIKE', $keyWord)
 						->orWhere('tipo_prueba', 'LIKE', $keyWord)
 						->orWhere('resultado', 'LIKE', $keyWord)
+						->orWhere('created_at', 'LIKE', $keyWord)
 						->paginate(10),
         ]);
     }
