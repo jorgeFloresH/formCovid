@@ -37,7 +37,7 @@
                     <ul class="navbar-nav mr-auto">
 						<!--Nav Bar Hooks - Do not delete!!-->
 						<li class="nav-item">
-                            <a href="{{ url('/pacientes') }}" class="nav-link"><i class="fab fa-laravel text-info"></i> Pacientes</a> 
+                            <a href="{{ url('/pacientes') }}" class="nav-link"><i class="fas fa-hospital-user"></i> Pacientes</a> 
                         </li>
                     </ul>
 					@endauth()
