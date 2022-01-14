@@ -35,13 +35,14 @@
 								<th>Nombre</th>
 								<th>Apellido</th>
 								<th>Segundo Apellido</th>
-								<th>Apellido Casada</th>
+								{{-- <th>Apellido Casada</th> --}}
 								<th>Carnet</th>
 								<th>Telefono</th>
-								<th>Celular</th>
+								{{-- <th>Celular</th> --}}
 								<th>Edad</th>
-								<th>Tipo Prueba</th>
+								<th>Código Prueba</th>
 								<th>Resultado</th>
+								<th>Fecha</th>
 								<td>Acciones</td>
 							</tr>
 						</thead>
@@ -52,10 +53,10 @@
 								<td>{{ $row->nombre }}</td>
 								<td>{{ $row->apellido }}</td>
 								<td>{{ $row->segundo_apellido }}</td>
-								<td>{{ $row->apellido_casada }}</td>
+								{{-- <td>{{ $row->apellido_casada }}</td> --}}
 								<td>{{ $row->carnet }}</td>
 								<td>{{ $row->telefono }}</td>
-								<td>{{ $row->celular }}</td>
+								{{-- <td>{{ $row->celular }}</td> --}}
 								<td>{{ $row->edad }}</td>
 								<td>{{ $row->tipo_prueba }}</td>
 								<td>{{ $row->resultado }}</td>

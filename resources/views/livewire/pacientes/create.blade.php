@@ -26,11 +26,11 @@
                 <h6>Segundo apellido:</h6>
                 <input wire:model="segundo_apellido" type="text" class="form-control" id="segundo_apellido" placeholder="Segundo Apellido">@error('segundo_apellido') <span class="error text-danger">{{ $message }}</span> @enderror
             </div>
-            <div class="form-group">
+            {{-- <div class="form-group">
                 <label for="apellido_casada"></label>
                 <h6>Apellido casada(*opcional):</h6>
                 <input wire:model="apellido_casada" type="text" class="form-control" id="apellido_casada" placeholder="Apellido Casada">@error('apellido_casada') <span class="error text-danger">{{ $message }}</span> @enderror
-            </div>
+            </div> --}}
             <div class="form-group">
                 <label for="carnet"></label>
                 <h6>Cédula de identidad:</h6>
@@ -41,11 +41,11 @@
                 <h6>Teléfono:</h6>
                 <input wire:model="telefono" type="text" class="form-control" id="telefono" placeholder="Teléfono">@error('telefono') <span class="error text-danger">{{ $message }}</span> @enderror
             </div>
-            <div class="form-group">
+            {{-- <div class="form-group">
                 <label for="celular"></label>
                 <h6>Celular:</h6>
                 <input wire:model="celular" type="text" class="form-control" id="celular" placeholder="Celular">@error('celular') <span class="error text-danger">{{ $message }}</span> @enderror
-            </div>
+            </div> --}}
             <div class="form-group">
                 <label for="edad"></label>
                 <h6>Edad:</h6>
@@ -70,8 +70,8 @@
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary close-btn" data-dismiss="modal">Close</button>
-                <button type="button" wire:click.prevent="store()" class="btn btn-primary close-modal">Save</button>
+                <button type="button" class="btn btn-secondary close-btn" data-dismiss="modal">Cerrar</button>
+                <button type="button" wire:click.prevent="store()" class="btn btn-primary close-modal">Guardar</button>
             </div>
         </div>
     </div>
